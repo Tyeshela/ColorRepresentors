@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Color Representors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Color Representors</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Color Conversion</a></li>
+        <li><a href="#">Color Palettes</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="colorConversion">
+      <h2>Color Conversion</h2>
+      <form>
+        <div>
+          <label for="hexCode">Hex Code:</label>
+          <input type="text" id="hexCode" placeholder="#FFFFFF">
+        </div>
+        <div>
+          <label for="rgbCode">RGB:</label>
+          <input type="text" id="rgbCode" placeholder="255, 255, 255">
+        </div>
+        <div>
+          <label for="hslCode">HSL:</label>
+          <input type="text" id="hslCode" placeholder="0, 100%, 100%">
+        </div>
+        <button type="button" onclick="convertColor()">Convert</button>
+      </form>
+      <div id="colorPreview"></div>
+    </section>
+    
+    <section id="colorPalettes">
+      <h2>Color Palettes</h2>
+      <div class="colorPalette">
+        <div class="color" style="background-color: #FF0000;"></div>
+        <div class="color" style="background-color: #0000FF;"></div>
+        <div class="color" style="background-color: #FFFF00;"></div>
+      </div>
+      <div class="colorPalette">
+        <div class="color" style="background-color: #800080;"></div>
+        <div class="color" style="background-color: #008000;"></div>
+        <div class="color" style="background-color: #FFA500;"></div>
+      </div>
+    </section>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, sequi. Perferendis est quo veritatis. Eum delectus sunt voluptates consequatur velit dignissimos, nihil dolorum consectetur ullam repudiandae qui suscipit! Sed, laudantium? Eveniet excepturi vero voluptates iure! Temporibus, fugiat? Voluptate corporis nam, asperiores tempore, sed exercitationem quas magni possimus fugit nisi id unde. Nobis ab ratione provident magnam dolorum reiciendis, assumenda consectetur molestiae tenetur neque harum aliquam explicabo voluptas excepturi enim necessitatibus! Facere sed ipsa assumenda itaque eveniet enim, possimus nulla repellat odio, id veniam accusantium similique debitis. Explicabo itaque fuga, harum blanditiis eaque natus omnis similique odio quasi, beatae vero?</p>
+      </section>
+  </main>
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
